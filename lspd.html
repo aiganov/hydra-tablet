@@ -1,0 +1,816 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+	<head>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Планшет LSPD</title>
+    	<link href="css/normalize.css" rel="stylesheet">	
+    	<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="tablet-wrapper lspd-wrapper">
+			<div class="tablet-inner">		
+				<button class="close"></button>	 
+				<input id="tab1" type="radio" name="tabs" checked> 
+				<label for="tab1" class="tab-base">
+					<div class="label-inner">
+						<span class="tab-icon"></span>
+						<span class="tab-title">База данных</span> 
+					</div>					
+				</label> 
+				<input id="tab2" type="radio" name="tabs"> 
+				<label for="tab2" class="tab-wanted">
+					<div class="label-inner">
+						<span class="tab-icon"></span>
+						<span class="tab-title">В розыске</span>
+					</div>
+				</label> 
+				<input id="tab3" type="radio" name="tabs"> 
+				<label for="tab3" class="tab-officers">
+					<div class="label-inner">
+						<span class="tab-icon"></span>
+						<span class="tab-title">Сотрудники</span> 
+					</div>					
+				</label> 
+				<input id="tab4" type="radio" name="tabs"> 						
+				<label for="tab4" class="tab-police-calls">
+					<div class="label-inner">
+						<span class="tab-icon"></span>
+						<span class="tab-title">Финансы</span>
+					</div>					
+				</label> 
+				<input id="tab5" type="radio" name="tabs"> 						
+				<label for="tab5" class="tab-info">
+					<div class="label-inner">
+						<span class="tab-icon"></span>
+						<span class="tab-title">Инфо</span>
+					</div>					
+				</label> 
+				<section id="content1"> 
+					<p class="base-title">Поиск по базе данных</p>
+					<form class="base-form">
+						<input type="text" placeholder="Введите ИМЯ или ID">
+						<button class="btn btn-police">
+							<span class="btn-search">Поиск</span>
+						</button>
+					</form>
+					<div class="base-info">
+						<img src="img/photo.png" class="base-photo">
+						<div>
+							<p class="base-id">ID: 2020</p>
+							<p class="base-name">Harry Potter</p>
+							<p class="fraction-title">Фракция</p>
+							<p class="fraction-desc">ФРБ</p>
+						</div>
+					</div>
+					<p class="last-arrest">Последний арест: <span class="arrest-desc">Нет</span></p>
+					<p class="reason-arrest">Причина арест: <span class="arrest-desc">Нет</span></p>
+				</section>  
+				<section id="content2"> 
+					<div class="wanted-wrapper">
+						<ul class="wanted-list second-scroll">
+							<li class="wanted-item">
+								<div class="wanted-info">
+									<p class="wanted-id">ID: 666</p>
+									<p class="wanted-nick">Anton Lapenko</p>
+								</div>
+								<div class="wanted-level">
+									<p class="level-title">Уровень розыска</p>
+									<p class="level">2</p>
+								</div>
+								<button class="btn btn-police">
+									<span class="btn-wanted">Отслеживать</span>
+								</button>
+							</li>
+							<li class="wanted-item">
+								<div class="wanted-info">
+									<p class="wanted-id">ID: 666</p>
+									<p class="wanted-nick">Anton Lapenko</p>
+								</div>
+								<div class="wanted-level">
+									<p class="level-title">Уровень розыска</p>
+									<p class="level">2</p>
+								</div>
+								<button class="btn btn-police">
+									<span class="btn-wanted">Отслеживать</span>
+								</button>
+							</li>
+							<li class="wanted-item">
+								<div class="wanted-info">
+									<p class="wanted-id">ID: 666</p>
+									<p class="wanted-nick">Anton Lapenko</p>
+								</div>
+								<div class="wanted-level">
+									<p class="level-title">Уровень розыска</p>
+									<p class="level">2</p>
+								</div>
+								<button class="btn btn-police">
+									<span class="btn-wanted">Отслеживать</span>
+								</button>
+							</li>
+							<li class="wanted-item">
+								<div class="wanted-info">
+									<p class="wanted-id">ID: 666</p>
+									<p class="wanted-nick">Anton Lapenko</p>
+								</div>
+								<div class="wanted-level">
+									<p class="level-title">Уровень розыска</p>
+									<p class="level">2</p>
+								</div>
+								<button class="btn btn-police">
+									<span class="btn-wanted">Отслеживать</span>
+								</button>
+							</li>
+							<li class="wanted-item">
+								<div class="wanted-info">
+									<p class="wanted-id">ID: 666</p>
+									<p class="wanted-nick">Anton Lapenko</p>
+								</div>
+								<div class="wanted-level">
+									<p class="level-title">Уровень розыска</p>
+									<p class="level">2</p>
+								</div>
+								<button class="btn btn-police">
+									<span class="btn-wanted">Отслеживать</span>
+								</button>
+							</li>
+							<li class="wanted-item">
+								<div class="wanted-info">
+									<p class="wanted-id">ID: 666</p>
+									<p class="wanted-nick">Anton Lapenko</p>
+								</div>
+								<div class="wanted-level">
+									<p class="level-title">Уровень розыска</p>
+									<p class="level">2</p>
+								</div>
+								<button class="btn btn-police">
+									<span class="btn-wanted">Отслеживать</span>
+								</button>
+							</li>
+							<li class="wanted-item">
+								<div class="wanted-info">
+									<p class="wanted-id">ID: 666</p>
+									<p class="wanted-nick">Anton Lapenko</p>
+								</div>
+								<div class="wanted-level">
+									<p class="level-title">Уровень розыска</p>
+									<p class="level">2</p>
+								</div>
+								<button class="btn btn-police">
+									<span class="btn-wanted">Отслеживать</span>
+								</button>
+							</li>
+							<li class="wanted-item">
+								<div class="wanted-info">
+									<p class="wanted-id">ID: 666</p>
+									<p class="wanted-nick">Anton Lapenko</p>
+								</div>
+								<div class="wanted-level">
+									<p class="level-title">Уровень розыска</p>
+									<p class="level">2</p>
+								</div>
+								<button class="btn btn-police">
+									<span class="btn-wanted">Отслеживать</span>
+								</button>
+							</li>
+							<li class="wanted-item">
+								<div class="wanted-info">
+									<p class="wanted-id">ID: 666</p>
+									<p class="wanted-nick">Anton Lapenko</p>
+								</div>
+								<div class="wanted-level">
+									<p class="level-title">Уровень розыска</p>
+									<p class="level">2</p>
+								</div>
+								<button class="btn btn-police">
+									<span class="btn-wanted">Отслеживать</span>
+								</button>
+							</li>
+							<li class="wanted-item">
+								<div class="wanted-info">
+									<p class="wanted-id">ID: 666</p>
+									<p class="wanted-nick">Anton Lapenko</p>
+								</div>
+								<div class="wanted-level">
+									<p class="level-title">Уровень розыска</p>
+									<p class="level">2</p>
+								</div>
+								<button class="btn btn-police">
+									<span class="btn-wanted">Отслеживать</span>
+								</button>
+							</li>
+							<li class="wanted-item">
+								<div class="wanted-info">
+									<p class="wanted-id">ID: 666</p>
+									<p class="wanted-nick">Anton Lapenko</p>
+								</div>
+								<div class="wanted-level">
+									<p class="level-title">Уровень розыска</p>
+									<p class="level">2</p>
+								</div>
+								<button class="btn btn-police">
+									<span class="btn-wanted">Отслеживать</span>
+								</button>
+							</li>																																																																						
+						</ul>	
+					</div>
+				</section>  
+				<section id="content3"> 
+					<div class="workers-wrapper">
+						<ul class="workers-list second-scroll">
+							<li class="worker">
+								<p class="worker-id">ID: 1488</p>
+								<div class="worker-info">
+									<p class="nick">Petro Gonzales</p>
+									<p class="worker-rank">Глав. врач</p>
+									<div class="uniform-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 1</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 2</span>
+										                	</span>
+										                </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>								
+									<div class="work-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Уволить</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Нанять</span>
+										                </button>
+										            </div>
+										        </div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li class="worker">
+								<p class="worker-id">ID: 1488</p>
+								<div class="worker-info">
+									<p class="nick">Petro Gonzales</p>
+									<p class="worker-rank">Глав. врач</p>
+									<div class="uniform-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 1</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 2</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>								
+									<div class="work-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Уволить</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Нанять</span>
+										                </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>
+								</div>
+							</li>
+							<li class="worker">
+								<p class="worker-id">ID: 1488</p>
+								<div class="worker-info">
+									<p class="nick">Petro Gonzales</p>
+									<p class="worker-rank">Глав. врач</p>
+									<div class="uniform-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 1</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 2</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>								
+									<div class="work-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Уволить</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Нанять</span>
+										                </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>
+								</div>
+							</li>
+							<li class="worker">
+								<p class="worker-id">ID: 1488</p>
+								<div class="worker-info">
+									<p class="nick">Petro Gonzales</p>
+									<p class="worker-rank">Глав. врач</p>
+									<div class="uniform-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 1</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 2</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>								
+									<div class="work-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Уволить</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Нанять</span>
+										                </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>
+								</div>
+							</li>
+							<li class="worker">
+								<p class="worker-id">ID: 1488</p>
+								<div class="worker-info">
+									<p class="nick">Petro Gonzales</p>
+									<p class="worker-rank">Глав. врач</p>
+									<div class="uniform-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 1</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 2</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>								
+									<div class="work-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Уволить</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Нанять</span>
+										                </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>
+								</div>
+							</li>
+							<li class="worker">
+								<p class="worker-id">ID: 1488</p>
+								<div class="worker-info">
+									<p class="nick">Petro Gonzales</p>
+									<p class="worker-rank">Глав. врач</p>
+									<div class="uniform-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 1</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 2</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>								
+									<div class="work-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Уволить</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Нанять</span>
+										                </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>
+								</div>
+							</li>
+							<li class="worker">
+								<p class="worker-id">ID: 1488</p>
+								<div class="worker-info">
+									<p class="nick">Petro Gonzales</p>
+									<p class="worker-rank">Глав. врач</p>
+									<div class="uniform-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 1</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 2</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>								
+									<div class="work-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Уволить</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Нанять</span>
+										                </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>
+								</div>
+							</li>
+							<li class="worker">
+								<p class="worker-id">ID: 1488</p>
+								<div class="worker-info">
+									<p class="nick">Petro Gonzales</p>
+									<p class="worker-rank">Глав. врач</p>
+									<div class="uniform-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 1</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 2</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>								
+									<div class="work-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Уволить</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Нанять</span>
+										                </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>
+								</div>
+							</li>
+							<li class="worker">
+								<p class="worker-id">ID: 1488</p>
+								<div class="worker-info">
+									<p class="nick">Petro Gonzales</p>
+									<p class="worker-rank">Глав. врач</p>
+									<div class="uniform-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 1</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 2</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>								
+									<div class="work-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Уволить</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Нанять</span>
+										                </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>
+								</div>
+							</li>		
+							<li class="worker">
+								<p class="worker-id">ID: 1488</p>
+								<div class="worker-info">
+									<p class="nick">Petro Gonzales</p>
+									<p class="worker-rank">Глав. врач</p>
+									<div class="uniform-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 1</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 2</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>								
+									<div class="work-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Уволить</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Нанять</span>
+										                </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>
+								</div>
+							</li>
+							<li class="worker">
+								<p class="worker-id">ID: 1488</p>
+								<div class="worker-info">
+									<p class="nick">Petro Gonzales</p>
+									<p class="worker-rank">Глав. врач</p>
+									<div class="uniform-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 1</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd">
+										                	<span class="white-text">
+										                		<span class="btn-text-lspd">Форма 2</span>
+										                	</span>
+										             	 </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>								
+									<div class="work-slider">
+										<div class="slider slider3">
+										        <div class="sliderContent">
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Уволить</span>
+										             	 </button>
+										            </div>
+										            <div class="item">
+										                <button class="btn btn-mini btn-mini-lspd btn-mini-white">
+										                	<span>Нанять</span>
+										                </button>
+										            </div>
+										        </div>
+										    </div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div> 
+				</section>  
+				<section id="content4"> 
+					<div class="calls-wrapper">
+						<div class="call">
+							<div class="call-text">
+								<p class="call-from">Вызов от</p>
+								<p class="nick">Rokuro Matsuoko</p>
+								<p class="call-dist">1 226 м</p>								
+							</div>
+							<button class="btn btn-police">
+								<span class="btn-check btn-check-white">Принять</span>
+							</button>
+						</div>
+						<div class="call">
+							<div class="call-text">
+								<p class="call-from">Вызов от</p>
+								<p class="nick">Rokuro Matsuoko</p>
+								<p class="call-dist">1 226 м</p>								
+							</div>
+							<button class="btn btn-police">
+								<span class="btn-check btn-check-white">Принять</span>
+							</button>
+						</div>
+						<div class="call">
+							<div class="call-text">
+								<p class="call-from">Вызов от</p>
+								<p class="nick">Rokuro Matsuoko</p>
+								<p class="call-dist">1 226 м</p>								
+							</div>
+							<button class="btn btn-police">
+								<span class="btn-check btn-check-white">Принять</span>
+							</button>
+						</div>
+						<div class="call">
+							<div class="call-text">
+								<p class="call-from">Вызов от</p>
+								<p class="nick">Rokuro Matsuoko</p>
+								<p class="call-dist">1 226 м</p>								
+							</div>
+							<button class="btn btn-police">
+								<span class="btn-check btn-check-white">Принять</span>
+							</button>
+						</div>
+						<div class="call">
+							<div class="call-text">
+								<p class="call-from">Вызов от</p>
+								<p class="nick">Rokuro Matsuoko</p>
+								<p class="call-dist">1 226 м</p>								
+							</div>
+							<button class="btn btn-police">
+								<span class="btn-check btn-check-white">Принять</span>
+							</button>
+						</div>
+						<div class="call">
+							<div class="call-text">
+								<p class="call-from">Вызов от</p>
+								<p class="nick">Rokuro Matsuoko</p>
+								<p class="call-dist">1 226 м</p>								
+							</div>
+							<button class="btn btn-police">
+								<span class="btn-check btn-check-white">Принять</span>
+							</button>
+						</div>
+						<div class="call">
+							<div class="call-text">
+								<p class="call-from">Вызов от</p>
+								<p class="nick">Rokuro Matsuoko</p>
+								<p class="call-dist">1 226 м</p>								
+							</div>
+							<button class="btn btn-police">
+								<span class="btn-check btn-check-white">Принять</span>
+							</button>
+						</div>
+						<div class="call">
+							<div class="call-text">
+								<p class="call-from">Вызов от</p>
+								<p class="nick">Rokuro Matsuoko</p>
+								<p class="call-dist">1 226 м</p>								
+							</div>
+							<button class="btn btn-police">
+								<span class="btn-check btn-check-white">Принять</span>
+							</button>
+						</div>
+						<div class="call">
+							<div class="call-text">
+								<p class="call-from">Вызов от</p>
+								<p class="nick">Rokuro Matsuoko</p>
+								<p class="call-dist">1 226 м</p>								
+							</div>
+							<button class="btn btn-police">
+								<span class="btn-check btn-check-white">Принять</span>
+							</button>
+						</div>																			
+					</div>
+				</section>  	
+				<section id="content5">		
+					<div class="info-wrapper">
+						<div class="info-text">
+							<p class="info-id">ID: 333</p>
+							<p class="info-nick">Hamperdu  Thegod</p>
+							<p class="lvl-title">Уровень</p>
+							<p class="lvl-desc">33</p>
+							<p class="rank-title">Ранг</p>
+							<p class="rank-desc">Капитан</p>
+							<p class="entry-title">Дата вступления</p>
+							<p class="entry-date">10.06.2020</p>
+						</div>
+						<img src="img/las-venturas-cops.png" class="info-lspd">
+					</div>
+				</section>				
+			</div>
+		</div>
+
+		
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/mobilyslider.js"></script>
+		<script type="text/javascript" src="js/jquery.nicescroll.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
